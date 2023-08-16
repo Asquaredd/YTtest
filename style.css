@@ -1,4 +1,36 @@
 body{
     background: url('background.svg') no-repeat center center;
     background-size: cover;
+    overflow: auto;
+}
+body.light-mode {
+    background-color: rgba(255, 255, 255, 0.3); /* Adjust as needed */
+    color: black;
+}
+
+body.dark-mode {
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust as needed */
+    color: white;
+}
+
+nav {
+    background-color: rgba(240, 240, 240, 0.3); /* Adding some opacity */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#logo {
+    height: 40px;
+    transform: scale(2);
+}
+
+#theme-toggle {
+    cursor: pointer;
+}
+#theme-toggle svg {
+    width: 24px; /* Set width */
+    height: 24px; /* Set height */
+    fill: black; /* Set color */
 }
