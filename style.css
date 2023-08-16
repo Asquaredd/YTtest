@@ -11,6 +11,15 @@ nav {
     padding: 10px;
 }
 
+#theme-toggle {
+    cursor: pointer;
+}
+#theme-toggle svg {
+    width: 24px; /* Set width */
+    height: 24px; /* Set height */
+    fill: black; /* Set color */
+}
+
 #logo {
     height: 40px;
     transform: scale(2);
