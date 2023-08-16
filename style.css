@@ -25,12 +25,3 @@ nav {
     height: 40px;
     transform: scale(2);
 }
-
-#theme-toggle {
-    cursor: pointer;
-}
-#theme-toggle svg {
-    width: 24px; /* Set width */
-    height: 24px; /* Set height */
-    fill: black; /* Set color */
-}
